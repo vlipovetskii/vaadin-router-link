@@ -12,6 +12,7 @@ class MainView : VerticalLayout() {
     init {
         span("MainView")
         routerLink(icon = VaadinIcon.PAPERPLANE, text = "SubView", viewType = SubView::class)
+        routerLink(icon = MyIcon.SHOPPING_CART, text = "SubView", viewType = SubView::class)
     }
 
 }

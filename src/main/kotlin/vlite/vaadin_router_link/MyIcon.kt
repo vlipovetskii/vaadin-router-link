@@ -25,9 +25,7 @@ enum class MyIcon : IconFactory {
      *  <g id="my-icons:shopping-cart">
      *  SHOPPING_CART -> create() -> shopping-cart
      */
-    override fun create() : Icon {
-        return Icon(name.lowercase(Locale.ENGLISH).replace('_', '-'));
-    }
+    override fun create() = Icon(name.lowercase(Locale.ENGLISH).replace('_', '-'))
 
     /**
      *

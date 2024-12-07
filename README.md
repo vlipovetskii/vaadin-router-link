@@ -1,2 +1,2 @@
 # vaadin-router-link
-Demo project for Vaadiun routerLink
+Demo project for Vaadin routerLink
